@@ -2,6 +2,13 @@
 <html>
     <head>
         <title>Introduction to D3.js</title>
+        <style>
+            #graph {
+                border: 1px solid #cecece;
+                width: 100%;
+                height: 300px;
+            }
+        </style>
     </head>
     <body>
         <nav>
@@ -18,6 +25,13 @@
                 </li>
             </ol>
         </nav>
-        <script type="module" src="main.ts"></script>
+        <h1>Selection API</h1>
+        <svg id="graph">
+            <rect class="bar"></rect>
+            <rect class="bar"></rect>
+            <rect class="bar"></rect>
+            <rect class="bar"></rect>
+        </svg>
+        <script type="module" src="index.ts"></script>
     </body>
 </html>
